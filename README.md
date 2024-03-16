@@ -9,7 +9,7 @@
 ## Installation
 1. Clone the repository.
     ```bash
-    git clone https://github.com/xzxzoo/Dehaze
+    https://github.com/zhoushen1/DCMPNet
     ```
 
 2. Install PyTorch 1.12.0 and torchvision 0.13.0.
