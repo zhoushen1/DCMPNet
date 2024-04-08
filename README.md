@@ -21,8 +21,11 @@
     pip install -r requirements.txt
     ```
     
-## Prepare Datasets
-Download the RESIDE datasets from [here.](https://sites.google.com/view/reside-dehaze-datasets)
+## Prepare
+Download the RESIDE datasets from [RESIDE.](https://sites.google.com/view/reside-dehaze-datasets)
+
+You need to put the `depth` into the file and you can download the `depth` from (Link：https://pan.baidu.com/s/1sNoMlcehMUtSLRuRvsjKKw?pwd=dbcw 
+code：dbcw)
 
 The final file path should be the same as the following (please check it carefully):
 ```
