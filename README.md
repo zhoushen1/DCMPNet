@@ -22,7 +22,7 @@
     ```
     
 ## Prepare
-Download the RESIDE datasets from [RESIDE.](https://sites.google.com/view/reside-dehaze-datasets)
+Download the RESIDE datasets from [here.](https://sites.google.com/view/reside-dehaze-datasets)
 
 You need to put the `depth` into the file and you can download the `depth` from (Link：https://pan.baidu.com/s/1sNoMlcehMUtSLRuRvsjKKw?pwd=dbcw 
 code：dbcw)
@@ -80,3 +80,12 @@ For example, we test the DIACMPN-dehaze-Indoor on the SOTS indoor set:
 ```sh
 CUDA_VISIBLE_DEVICES=0 python test.py --model DIACMPN-dehaze-Indoor --dataset RESIDE-IN --exp indoor
 ```
+
+
+# Contact:
+    Don't hesitate to contact me if you meet any problems when using this code.
+
+    Zhou Shen
+    Faculty of Information Engineering and Automation
+    Kunming University of Science and Technology                                                           
+    Email: zhoushennn@163.com
