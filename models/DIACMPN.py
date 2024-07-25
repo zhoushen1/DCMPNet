@@ -470,10 +470,10 @@ class DIACMPN(nn.Module):
 
 
         self.conv1 = nn.Conv2d(49,24,1)
-        self.conv2 = nn.Conv2d(97,48,1)
-        self.conv3 = nn.Conv2d(193,96,1)
-        self.conv4 = nn.Conv2d(97,48,1)
-        self.conv5 = nn.Conv2d(49,24,1)   #48
+        self.conv2 = nn.Conv2d(96,48,1)
+        self.conv3 = nn.Conv2d(192,96,1)
+        self.conv4 = nn.Conv2d(96,48,1)
+        self.conv5 = nn.Conv2d(48,24,1)   #48
 
         self.conv11 = nn.Conv2d(1, 1, kernel_size=3, stride=2, padding=1)
 
