@@ -473,11 +473,9 @@ class DIACMPN(nn.Module):
         self.conv2 = nn.Conv2d(96,48,1)
         self.conv3 = nn.Conv2d(192,96,1)
         self.conv4 = nn.Conv2d(96,48,1)
-        self.conv5 = nn.Conv2d(48,24,1)   #48
+        self.conv5 = nn.Conv2d(48,24,1)
 
         self.conv11 = nn.Conv2d(1, 1, kernel_size=3, stride=2, padding=1)
-
-        # 定义一个卷积层，用于将尺寸缩小为原来的四分之一
         self.conv22 = nn.Conv2d(1, 1, kernel_size=3, stride=4, padding=1)
 
         self.Unet1 = UNet()
