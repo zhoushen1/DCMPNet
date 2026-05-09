@@ -22,7 +22,7 @@
     ```
     
 ## Prepare
-Download the RESIDE datasets from [here.](https://sites.google.com/view/reside-dehaze-datasets)
+Download the RESIDE datasets from (https://sites.google.com/view/reside-dehaze-datasets)
 
 You need to put the `depth` into the file and you can download the `depth` from (Link：https://pan.baidu.com/s/1sNoMlcehMUtSLRuRvsjKKw?pwd=dbcw 
 code：dbcw)
