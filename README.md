@@ -84,9 +84,6 @@ CUDA_VISIBLE_DEVICES=0 python test.py --model DIACMPN-dehaze-Indoor --dataset RE
 
 
 # Contact:
-    Don't hesitate to contact me if you meet any problems when using this code.
-
     Zhou Shen
-    Faculty of Information Engineering and Automation
-    Kunming University of Science and Technology                                                           
+    School of Computer Science and Engineering, Southeast University                                                        
     Email: zhoushennn@163.com
