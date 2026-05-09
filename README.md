@@ -70,6 +70,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --model DIACMPN-dehaze-Indoor --dataset R
 
 Run the following script to evaluate the trained model with a single GPU.
 
+The initial code and weights are provided [here.](https://drive.google.com/drive/folders/1orgiPcrejOI3IChIOCBpw9SzYPuoT9vK?usp=drive_link)
 
 ```sh
 CUDA_VISIBLE_DEVICES=X python test.py --model (model name) --dataset (dataset name) --exp (exp name)
