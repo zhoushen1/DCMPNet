@@ -22,10 +22,10 @@
     ```
     
 ## Prepare
-Download the RESIDE datasets from (https://sites.google.com/view/reside-dehaze-datasets)
+Download the RESIDE datasets from https://sites.google.com/view/reside-dehaze-datasets
 
-You need to put the `depth` into the file and you can download the `depth` from (Link：https://pan.baidu.com/s/1sNoMlcehMUtSLRuRvsjKKw?pwd=dbcw 
-code：dbcw)
+You need to put the `depth` into the file and you can download the `depth` from https://pan.baidu.com/s/1sNoMlcehMUtSLRuRvsjKKw?pwd=dbcw 
+code：dbcw
 
 The final file path should be the same as the following (please check it carefully):
 ```
@@ -70,7 +70,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --model DIACMPN-dehaze-Indoor --dataset R
 
 Run the following script to evaluate the trained model with a single GPU.
 
-The initial code and weights are provided [here.](https://drive.google.com/drive/folders/1orgiPcrejOI3IChIOCBpw9SzYPuoT9vK?usp=drive_link)
+The initial code and weights are provided https://drive.google.com/drive/folders/1orgiPcrejOI3IChIOCBpw9SzYPuoT9vK?usp=drive_link
 
 ```sh
 CUDA_VISIBLE_DEVICES=X python test.py --model (model name) --dataset (dataset name) --exp (exp name)
