@@ -86,4 +86,4 @@ CUDA_VISIBLE_DEVICES=0 python test.py --model DIACMPN-dehaze-Indoor --dataset RE
 # Contact:
     Zhou Shen
     School of Computer Science and Engineering, Southeast University                                                        
-    Email: zhoushennn@163.com
+    zhoushennn@163.com
