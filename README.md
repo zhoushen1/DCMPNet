@@ -18,7 +18,7 @@
 
 3. Install the other dependencies.
     ```bash
-    pip install -r requirements.txt
+    pip install -r environment.yaml
     ```
     
 ## Prepare
